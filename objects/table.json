@@ -1,0 +1,21 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://tomcrane.github.io/iiif-collector/objects/table.json",
+    "@type": "oa:Annotation",
+    "motivation": "oa:describing",
+    "resource": {
+      "@id": "https://wellcomelibrary.org/service/moh/tables/10182399100780033.xml",
+      "@type": "dctypes:Dataset",
+      "format": "text/xml",
+      "label": "Large quantities of food of all varieties were inspected and as a result the following food was surrendered as unfit for human consumption and unsound Certificates were issued."
+    },
+    "on": {
+        "@id": "https://wellcomelibrary.org/iiif/b18239912/canvas/c78#xywh=182,340,1323,1815",
+        "@type": "sc:Canvas",
+        "within": {
+          "@id": "https://wellcomelibrary.org/iiif/b18239912/manifest",
+          "@type": "sc:Manifest",
+          "label": "Report of the Medical Officer of Health for Lambeth Borough, 1965"
+      }
+    }
+  }

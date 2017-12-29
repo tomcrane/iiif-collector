@@ -1,0 +1,20 @@
+
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://tomcrane.github.io/iiif-collector/objects/bug.json",
+    "@type": "oa:Annotation",
+    "motivation": "oa:highlighting",
+    "resource": {
+      "@id": "dctypes:Image",
+      "label": "There's a bug in this manuscript"
+    },
+    "on": {
+        "@id": "https://wellcomelibrary.org/iiif/b19084055/canvas/c177#xywh=2325,890,364,343",
+        "@type": "sc:Canvas",
+        "within": {
+            "@id": "https://wellcomelibrary.org/iiif/b19084055/manifest",
+            "@type": "sc:Manifest",
+            "label": "Collection of medical, scientific and theological works (Miscellanea XI)"
+        }
+    }
+}

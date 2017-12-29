@@ -1,0 +1,52 @@
+
+body {
+    font-family: sans-serif;
+    height:100%;
+    margin:10px;
+    padding:0;
+}
+html {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+#output {
+    width:95%;
+}
+
+#output img {
+    max-width: 90%;
+}
+
+#wrap {
+    width:100%;
+    display: inline-block;
+}
+#images, #text {
+    width:48%;
+    display: inline-block;
+    vertical-align:top;
+}
+
+#images img {
+    float:left;
+}
+
+pre {
+    border:1px solid #666;
+    padding:3px;
+    background-color: #ddd;
+    width:95%;
+    height:400px;
+    overflow-y: scroll;
+}
+.label {
+    font-style: italic;
+}
+.chars {
+    font-family: monospace;
+}

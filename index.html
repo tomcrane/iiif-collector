@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Looking up and looking down</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <select id="objects">
+            <option value="objects/bug.json">[Annotation] A bug in a manuscript</option>
+            <option value="objects/word.json">[Annotation] A word in a book</option>
+            <option value="objects/plate.json">[Annotation] A plate in a book</option>
+            <option value="objects/paragraph.json">[Annotation] A paragraph from a letter</option>
+            <option value="objects/table.json">[Annotation] A table of data</option>    
+            <option value="objects/short-article.json">[Range] A short article from a periodical</option>
+            <option value="objects/longer-article.json">[Range] A longer article spread across images</option>
+            <option value="objects/chapter.json">[Range] A chapter of a book</option>
+            <option value="https://wellcomelibrary.org/iiif/b30018201/manifest">[Manifest] A book</option>
+            <option value="https://manifests.britishart.yale.edu/manifest/5018">[Manifest] A painting</option>
+            <option value="https://wellcomelibrary.org/iiif/collection/b18033921">[Collection] A multi-volume work</option>
+            
+    </select>
+    
+    <pre>
+
+    </pre>
+
+    <div id="output">
+
+    </div>
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="collect.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://tomcrane.github.io/iiif-collector/objects/short-article.json",
+    "@type": "sc:Range",
+    "label": "Hair-raiser",
+    "description": "<p><a href='http://universalviewer.io/examples/#?c=231&m=0&s=0&cv=13&manifest=http%3A%2F%2Fwellcomelibrary.org%2Fiiif%2Fcollection%2Fb19974760'>See this in place across two columns</a></p>",
+    "canvases": [
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1690,2943,528,968",
+            "within": {
+                "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/manifest",
+                "@type": "sc:Manifest",
+                "label": "The chemist and druggist, issue 6093 - 5. July 1997"
+            }
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2203,156,518,581",
+            "within": {
+                "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "contentLayer": {
+        "@id": "https://tomcrane.github.io/iiif-collector/objects/short-article-contentlayer",
+        "@type": "sc:Layer",
+        "label": "Content of 'Hair-Raiser' article",          
+        "otherContent": [
+            "https://tomcrane.github.io/iiif-collector/objects/short-article-annos.json"
+        ]
+    }
+}    
+
+
+
+
+
+  
+

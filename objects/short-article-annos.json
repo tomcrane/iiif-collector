@@ -1,0 +1,243 @@
+
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/contentAsText/13",
+    "@type": "sc:AnnotationList",
+    "within": {
+      "@id": "https://tomcrane.github.io/iiif-collector/objects/short-article-contentlayer",
+      "@type": "sc:Layer",
+      "label": "Content of 'Hair-Raiser' article",
+      "within": {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/manifest",
+        "@type": "sc:Manifest"
+      }
+    },
+    "resources": [
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t234",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "Hair-raiser"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1732,2959,308,85"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t235",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "Top hairdresser Trevor"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1732,3080,411,40"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t236",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "Sorbie (below), four"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1734,3127,363,38"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t237",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "times winner of 'British"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1733,3172,420,34"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t238",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "Hairdresser of the Year',"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1734,3217,430,35"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t239",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "will be on stand PI to"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1734,3265,385,33"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t240",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "discuss his Professional"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1736,3310,427,35"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t241",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "Haircare range - available"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2219,157,464,38"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t242",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "through Brand Managers."
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2220,205,451,38"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t243",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "• New on the same"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2223,251,357,30"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t244",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "stand will be a French Art"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2221,296,462,31"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t245",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "Deco bath line, called"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2222,342,385,35"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t246",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "L'Aromarine. It will"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2223,388,341,31"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t247",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "incorporate confetti bath"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2223,434,447,38"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t248",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "leaves as well as more"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2224,481,396,31"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t249",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "traditional bath and"
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2224,527,352,31"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t250",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "shower products."
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2225,574,308,37"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t251",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "Brand Managers Ltd."
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2229,616,363,40"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13t252",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@type": "cnt:ContentAsText",
+          "format": "text/plain",
+          "chars": "Tel: 0181 286 6688."
+        },
+        "on": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=2227,663,311,33"
+      },
+      {
+        "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/annos/contentAsText/a13i2",
+        "@type": "oa:Annotation",
+        "motivation": "oa:classifying",
+        "resource": {
+          "@id": "dctypes:Image",
+          "label": "Picture"
+        },
+        "on": {
+          "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/canvas/c13#xywh=1769,3419,443,479",
+          "@type": "sc:Canvas",
+          "within": {
+            "@id": "https://wellcomelibrary.org/iiif/b19974760-3784/manifest",
+            "@type": "sc:Manifest"
+          }
+        }
+      }
+    ]
+  }

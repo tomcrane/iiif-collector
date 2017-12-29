@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://tomcrane.github.io/iiif-collector/objects/plate.json",
+    "@type": "oa:Annotation",
+    "motivation": "oa:highlighting",
+    "resource": {
+      "@id": "dctypes:Image",
+      "label": "<p>A SCIENTIST'S PLAN TO PIERCE THE EARTH<br/>An imaginary picture of the boring of the five-mile depth suggested by M. Flammarion, the famous astronomer, for studying the inside of the Earth.</p>"
+    },
+    "on": {
+        "@id": "https://wellcomelibrary.org/iiif/b18033921-0/canvas/c159#xywh=80,180,2150,3300",
+        "@type": "sc:Canvas",
+        "within": {
+            "@id": "https://wellcomelibrary.org/iiif/b18033921-0/manifest",
+            "@type": "sc:Manifest",
+            "label": "Popular Science, Volume 1"
+        }
+    }
+}
