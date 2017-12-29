@@ -5,11 +5,12 @@ var template = '<div id="label"></div>'
    + '</div>'
    + '<div id="source"></div>'
 
-var workingSourceManifest;
+var workingSourceManifest, sources;
 
 function processSelect(){
     $('#output').html(template);
     workingSourceManifest = null;
+    sources = [];
     var resource = $('#objects').val()
     $.getJSON(resource, function (iiifResource) {
         $('pre').html(JSON.stringify(iiifResource, null, '  '));
@@ -79,7 +80,6 @@ function drawText(anno, index){
     }
 }
 
-var sources = []
 function showSource(manifest){
     if(sources.indexOf(manifest['@id']) == -1){
         sources.push(manifest['@id']);
