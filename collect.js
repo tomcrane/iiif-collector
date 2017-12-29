@@ -5,9 +5,11 @@ var template = '<div id="label"></div>'
    + '</div>'
    + '<div id="source"></div>'
 
+var workingSourceManifest;
 
 function processSelect(){
     $('#output').html(template);
+    workingSourceManifest = null;
     var resource = $('#objects').val()
     $.getJSON(resource, function (iiifResource) {
         $('pre').html(JSON.stringify(iiifResource, null, '  '));
@@ -25,33 +27,52 @@ function processSelect(){
 }
 
 function showAnno(resource){
-    // making MANY assumptions about structure for simplicity
+    // making MANY assumptions about structure for simplicity of demo
     // assume it's on a canvas within a manifest
     var refCanvas = resource['on']
     drawCanvasPart(refCanvas)
     drawText(resource);
 }
 
-function drawCanvasPart(refCanvas, size, where){
-    var idAndFragment = refCanvas['@id'].split('#');
-    var canvasId = idAndFragment[0];
-    var region = (idAndFragment.length == 2) ? idAndFragment[1].split('=')[1] : 'full';
-    console.log(size);
-    $.getJSON(refCanvas['within']['@id'], function(manifest){
-        var canvas = getCanvas(manifest, idAndFragment[0]);
-        drawSegment(canvas, region, size, where);
+function getCanvasParts(idAndFragment){
+    parts = idAndFragment.split('#');
+    canvasId = parts[0];
+    region = (parts.length == 2) ? parts[1].split('=')[1] : 'full';
+    return { canvasId: canvasId, region: region };
+}
+
+function drawCanvasPart(refCanvas, size, where, index){
+    var parts, manifestId
+    if(refCanvas.hasOwnProperty('@id')){
+        parts = getCanvasParts(refCanvas['@id'])
+        if(refCanvas.hasOwnProperty('within')){
+            var manifest = refCanvas['within'];            
+            manifestId = manifest.hasOwnProperty('@id') ? manifest['@id'] : manifest;
+            workingSourceManifest = manifestId;
+        } else {
+            manifestId = workingSourceManifest;
+        }
+    } else {
+        parts = getCanvasParts(refCanvas);
+        manifestId = workingSourceManifest;
+    }
+    $.getJSON(manifestId, function(manifest){
+        var canvas = getCanvas(manifest, parts.canvasId);
+        drawSegment(canvas, parts.region, size, where, index);
         showSource(manifest);
     });
 }
 
-function drawText(anno){
+function drawText(anno, index){
+    if(!index) index = 0;
     var res = anno['resource'];
     if(!res) return;
     if(res['@type'] == 'cnt:ContentAsText'){
-        $('#text').append('<div class="chars">' + res['chars'] + "</div>");
+        html = '<div class="chars" data-index="' + index + '">' + res['chars'] + '</div>';
+        insertForIndex(html, index, '#text')
     }
     if(res['label']){
-        $('#label').append('<div class="label">' + res['label'] + "</div>");
+        $('#label').append('<div class="label">' + res['label'] + '</div>');
     }
     if(res['@type'] == 'dctypes:Dataset'){
         $('#text').append('<p><b><a href="' + res['@id'] + '">Download dataset (' + res['format'] + ')</a></b></p>');
@@ -66,14 +87,43 @@ function showSource(manifest){
     }
 }
 
+function insertForIndex(html, index, where){
+    // This is NOT the way to do async page building...
+    elements = $(where).children('[data-index]');
+    if(elements.length == 0){
+        $(where).append(html);
+        return;
+    }
+    var insertElement = null;
+    for(var i=0; i<elements.length; i++){        
+        pos = parseInt($(elements[i]).attr('data-index'));
+        if(pos > index){
+            break;
+        }
+        insertElement = $(elements[i]);
+    }
+    if(insertElement){
+        insertElement.after(html);
+    } else {        
+        $(where).prepend(html);
+    }
+}
 
 
-function drawSegment(canvas, region, size, where){
+
+function drawSegment(canvas, region, size, where, index){
+    if(!index) index = 0;
     if(!size) size = 'full';
+    if(size == 'auto'){
+        // totally tweaked for demo...
+        width = region.split(',')[2];
+        size = (region == 'full' || width < 1500) ? '300,' : '500,'
+    }
     if(!where) where = '#images';
     var scaledRegion = getRegionForCanvas(canvas, region);
     var imageSrc = canvas.images[0].resource.service['@id'] + '/' + scaledRegion + '/' + size + '/0/default.jpg';
-    $(where).append('<img src="' + imageSrc + '" />');
+    html = '<img data-index="' + index + '" src="' + imageSrc + '" />';
+    insertForIndex(html, index, where)
 }
 
 function getRegionForCanvas(canvas, region){
@@ -93,16 +143,16 @@ function getCanvas(manifest, canvasId){
 
 function showRange(range){
     // just going to deal with canvases, no child ranges for simplicity
-    $.each(range['canvases'], function (idx, canvas){
-        drawCanvasPart(canvas, '300,');
+    $.each(range['canvases'], function (index, canvas){
+        drawCanvasPart(canvas, 'auto', '#images', index);
     });
-    $.each(range.contentLayer.otherContent, function (idx, annoListId){
+    $.each(range.contentLayer.otherContent, function (annoListIndex, annoListId){
         $.getJSON(annoListId, function(annoList){
-            $.each(annoList.resources, function(idx, anno){
+            $.each(annoList.resources, function(annoIndex, anno){
                 if(anno['motivation'] == 'oa:classifying' && anno['resource']['@id'] == "dctypes:Image"){
-                    drawCanvasPart(anno['on'], '200,', '#text');
+                    drawCanvasPart(anno['on'], '200,', '#text', annoListIndex);
                 } else {
-                    drawText(anno);
+                    drawText(anno, annoListIndex);
                 }
             });
         });

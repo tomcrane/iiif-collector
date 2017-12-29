@@ -27,13 +27,20 @@ iframe {
     display: inline-block;
 }
 #images, #text {
-    width:48%;
     display: inline-block;
     vertical-align:top;
 }
 
+#images {
+    width:49%;
+}
+#text {
+    width:49%;
+}
+
 #images img {
     float:left;
+    margin-bottom:2px;
 }
 
 pre {

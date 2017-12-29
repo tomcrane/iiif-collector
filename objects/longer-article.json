@@ -1,0 +1,36 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://tomcrane.github.io/iiif-collector/objects/longer-article.json",
+    "@type": "sc:Range",
+    "label": "A Profound Warrior For Us All",
+    "description": "<p><a href='https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01#?c=0&m=0&s=0&cv=0&z=749.6929%2C3307.2622%2C4049.5239%2C3514.5534'>See this in place across two pages</a></p>",
+    "canvases": [
+        {
+            "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1202,3906,3254,2085",
+            "within": {
+                "@id": "https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "Nubian Message, April 1, 1995"
+            }
+        },
+        {
+            "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0003#xywh=313,4540,2388,1579",
+            "within": {
+                "@id": "https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "contentLayer": {
+        "@id": "https://tomcrane.github.io/iiif-collector/objects/longer-article-contentlayer",
+        "@type": "sc:Layer",
+        "label": "Content of 'A Profound Warrior For Us All' article",          
+        "otherContent": [
+            "https://tomcrane.github.io/iiif-collector/objects/longer-article-annos1.json",
+            "https://tomcrane.github.io/iiif-collector/objects/longer-article-annos2.json"
+        ]
+    }
+}    
+
+
+

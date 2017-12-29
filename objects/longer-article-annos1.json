@@ -1,0 +1,1018 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://tomcrane.github.io/iiif-collector/objects/longer-article-annos1.json",
+    "@type": "sc:AnnotationList",
+    "@label": "A Profound Warrior For Us All (OCR text granularity of line)",
+    "within": {
+      "@id": "https://tomcrane.github.io/iiif-collector/objects/longer-article-contentlayer",
+      "@type": "sc:Layer",
+      "label": "Content of 'A Profound Warrior For Us All' article",
+      "within": {
+        "@id": "https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/manifest.json",
+        "@type": "sc:Manifest"
+      }
+    },
+    "resources": [
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1703,3931,2342,160",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "A Profound Warrior For"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1703,3931,2342,160"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2429,4187,670,158",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "' Us All"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2429,4187,670,158"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1294,4445,638,52",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "b Rochelle Carlton"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1294,4445,638,52"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1490,4525,249,40",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Staff Writer"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1490,4525,249,40"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1294,4717,690,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Dr. Augustus M. Witherspoon"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1294,4717,690,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1243,4783,742,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "began his afﬁliation with NCSU as a"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1243,4783,742,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1243,4849,741,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "graduate student. As he progressed"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1243,4849,741,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1244,4915,740,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "from student, to professor, to"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1244,4915,740,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1244,4982,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Associate Dean, and finally"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1244,4982,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1244,5049,742,37",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Associate Provost and Coordinator"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1244,5049,742,37"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1244,5115,741,43",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "of Afrikan-American Affairs, he left"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1244,5115,741,43"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1244,5183,741,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "behind a legacy that will continue to"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1244,5183,741,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1245,5250,740,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "impact the Afrikan—American stu-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1245,5250,740,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1245,5317,743,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "dents at NC. State University for"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1245,5317,743,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1245,5390,287,40",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "years to come."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1245,5390,287,40"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1306,5450,679,42",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Provost William Grant, who has"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1306,5450,679,42"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1246,5516,740,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "accepted the challenge of following"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1246,5516,740,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1246,5583,740,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "in the footsteps of Dr. Witherspoon,"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1246,5583,740,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1247,5650,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "spoke at great length on the pro-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1247,5650,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1247,5717,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "found changes Dr. Witherspoon has"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1247,5717,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1246,5783,745,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "brought about on the campus of"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1246,5783,745,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1247,5851,141,36",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "NCSU."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1247,5851,141,36"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/1311,5917,676,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Dr. Witherspoon began, and con—"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=1311,5917,676,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2051,4449,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "tinued throughout his career, the"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2051,4449,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2052,4516,738,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "long and complex process of trans-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2052,4516,738,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2052,4583,739,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "forming what was once a segregated"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2052,4583,739,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2052,4649,740,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "institution into a place that could"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2052,4649,740,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2052,4715,737,37",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "meet the needs of its Afrikan-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2052,4715,737,37"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2053,4782,431,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "American population."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2053,4782,431,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2114,4848,678,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "One of Dr. Witherspoon’s first"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2114,4848,678,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2053,4915,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "major undertakings was the creation"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2053,4915,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2053,4981,737,43",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "of a task force, the Afrikan-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2053,4981,737,43"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2053,5048,739,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Amen’can Advisory Council, during"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2053,5048,739,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2052,5114,740,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "the early 1970’s to determine why"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2052,5114,740,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2054,5181,738,38",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Afrikan-American enrollment at"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2054,5181,738,38"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2053,5249,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "NCSU was so low. In examining"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2053,5249,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2053,5316,740,42",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "this issue, the Council asked"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2053,5316,740,42"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2054,5382,738,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Afrikan-American faculty, staff,"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2054,5382,738,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2054,5449,740,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "employees, and former students to"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2054,5449,740,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2055,5515,738,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "describe their experiences at the uni-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2055,5515,738,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2055,5582,145,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "versity."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2055,5582,145,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2104,5649,689,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "They also interviewed area high-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2104,5649,689,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2056,5715,738,37",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "school students and asked them"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2056,5715,738,37"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2056,5782,737,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "about their impressions of the"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2056,5782,737,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2057,5849,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "school. As anyone who has ever"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2057,5849,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2056,5917,739,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "tried to bring about change may"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2056,5917,739,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2859,4447,742,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "know, often the ﬁrst step in ﬁnding"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2859,4447,742,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2860,4515,741,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "solutions to a problem is proving to"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2860,4515,741,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2860,4582,741,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "“the powers that be” that the prob-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2860,4582,741,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2860,4648,442,37",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "lem does indeed exist."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2860,4648,442,37"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2920,4714,681,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "To convey the severity of the sit-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2920,4714,681,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2860,4781,742,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "uation, a videotape was presented to"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2860,4781,742,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2860,4847,742,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "the administration so that they could"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2860,4847,742,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2860,4913,746,37",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "hear ﬁrsthand the students’ and staff"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2860,4913,746,37"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2861,4980,741,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "members’ description of a campus"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2861,4980,741,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2860,5047,743,37",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "environment that was hostile to"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2860,5047,743,37"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2860,5113,742,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Afrikan-American high school stu—"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2860,5113,742,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2861,5180,551,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "dents had of this university."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2861,5180,551,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2922,5247,680,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "The Afrikan-American Advisory"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2922,5247,680,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2861,5314,742,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Council then drew up a list of rec-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2861,5314,742,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2862,5381,742,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "ommendations outlining how to"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2862,5381,742,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2862,5447,742,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "resolve the problem, some of which"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2862,5447,742,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2863,5513,741,38",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "led to the establishment of Afrikan-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2863,5513,741,38"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2863,5580,741,37",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "American Coordinators in each col-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2863,5580,741,37"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2863,5647,742,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "lege, and the enlargement of the"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2863,5647,742,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2863,5713,740,38",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "almost nonexistent Afrikan-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2863,5713,740,38"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2863,5781,358,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "American faculty."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2863,5781,358,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2923,5847,682,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Dr. Witherspoon was committed"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2923,5847,682,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/2863,5913,742,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "to ensuring that NCSU offered an"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=2863,5913,742,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3670,4445,737,38",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "environment in which Afrikan-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3670,4445,737,38"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3670,4512,739,38",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "American students could excel. In"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3670,4512,739,38"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3671,4579,737,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "order to provide Afrikan—American"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3671,4579,737,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3671,4646,737,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "students with the opportunity to net-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3671,4646,737,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3671,4712,738,43",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "work, interact with one another, and"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3671,4712,738,43"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3670,4778,738,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "become acquainted with Afrikan-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3670,4778,738,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3671,4845,738,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "American faculty and staff, he sup-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3671,4845,738,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3671,4911,738,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "plemented the regular orientation"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3671,4911,738,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3670,4977,738,49",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "process to include an Afrikan—"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3670,4977,738,49"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3671,5046,456,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "American Symposium."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3671,5046,456,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3732,5111,679,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "When it became apparent that"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3732,5111,679,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3671,5178,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "there was an alarmingly large dis-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3671,5178,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3671,5245,744,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "crepancy between the number of"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3671,5245,744,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3672,5312,738,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Afrikan-American students entering"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3672,5312,738,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3673,5379,738,45",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "as freshman, and those actually eam-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3673,5379,738,45"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3673,5445,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "ing a degree, even for those students"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3673,5445,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3673,5512,739,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "whose performance was above aver-"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3673,5512,739,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3673,5578,740,48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "age in high-school, Dr. Witherspoon"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3673,5578,740,48"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3673,5645,740,46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "introduced the idea of adding a new"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3673,5645,740,46"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3673,5711,741,38",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "course to the curriculum that would"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3673,5711,741,38"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3673,5779,586,47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "help rectify this discrepancy."
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3673,5779,586,47"
+        },
+        {
+            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001-annotation-list-line/3768,5852,552,64",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "see Grant, page 3"
+            },
+            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001#xywh=3768,5852,552,64"
+        }
+    ]
+}
