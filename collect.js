@@ -162,7 +162,7 @@ function showRange(range){
     
 function showUV(resource){
     $('#output').css("height", "600px");
-    $('#output').html('<iframe src="http://universalviewer.io/examples/uv/uv.html#?manifest=' + resource + '&locales=en-GB:English (GB)" width="100%" height="100%" style="height:100%;width:100%" allowfullscreen frameborder="0"></iframe>');
+    $('#output').html('<iframe src="https://universalviewer.io/examples/uv/uv.html#?manifest=' + resource + '&locales=en-GB:English (GB)" width="100%" height="100%" style="height:100%;width:100%" allowfullscreen frameborder="0"></iframe>');
 }
 
 $(function() {
