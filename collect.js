@@ -12,6 +12,7 @@ function processSelect(){
     workingSourceManifest = null;
     sources = [];
     var resource = $('#objects').val()
+    history.pushState({object: resource}, "IIIF Collector: " + resource, '#' + resource);
     $.getJSON(resource, function (iiifResource) {
         $('pre').html(JSON.stringify(iiifResource, null, '  '));
         var type = iiifResource['@type']; 
@@ -169,5 +170,12 @@ $(function() {
     $('#objects').change(function(){
         processSelect();    
     });
+    if(location.hash){
+        $('#objects').val(location.hash.substring(1));
+    }
+    window.onpopstate = function(event){
+        $('#objects').val(event.state.object);
+        processSelect(); 
+    };
     processSelect();  
 });
