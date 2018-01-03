@@ -5,14 +5,16 @@ var template = '<div id="label"></div>'
    + '</div>'
    + '<div id="source"></div>'
 
-var workingSourceManifest, sources;
+var workingSourceManifest, sources, changed;
 
 function processSelect(){
     $('#output').html(template);
     workingSourceManifest = null;
     sources = [];
     var resource = $('#objects').val()
-    history.pushState({object: resource}, "IIIF Collector: " + resource, '#' + resource);
+    if(changed) {
+        history.pushState({object: resource}, "IIIF Collector: " + resource, '#' + resource);
+    }
     $.getJSON(resource, function (iiifResource) {
         $('pre').html(JSON.stringify(iiifResource, null, '  '));
         var type = iiifResource['@type']; 
@@ -167,7 +169,9 @@ function showUV(resource){
 }
 
 $(function() {
+    changed = false;
     $('#objects').change(function(){
+        changed = true;
         processSelect();    
     });
     if(location.hash){
