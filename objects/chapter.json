@@ -1,0 +1,140 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://tomcrane.github.io/iiif-collector/objects/chapter.json",
+    "@type": "sc:Range",
+    "label": "Chapter VI - The Skeleton",
+    "description": "Chapter from <a href='https://wellcomelibrary.org/item/b21213483#?c=0&m=0&s=0&cv=87'>The human body: an account of its structure and activities and the conditions of its healthy working</a>",
+    "canvases": [
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c87",
+            "within": {
+                "@id": "https://wellcomelibrary.org/iiif/b21213483/manifest",
+                "@type": "sc:Manifest",
+                "label": "The human body: an account of its structure and activities and the conditions of its healthy working"
+            }
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c88",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c89",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c90",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c91",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c92",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c93",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c94",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c95",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c96",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c97",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c98",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c99",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c100",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c101",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c102",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c103",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c104",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c105",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c106",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c107",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c108",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c109",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        },
+        {
+            "@id": "https://wellcomelibrary.org/iiif/b21213483/canvas/c110",
+            "within": "https://wellcomelibrary.org/iiif/b21213483/manifest"
+        }
+    ],
+    "contentLayer": {
+        "@id": "https://tomcrane.github.io/iiif-collector/objects/chapter",
+        "@type": "sc:Layer",
+        "label": "Content of 'The Skeleton' chapter",          
+        "otherContent": [
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/87",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/88",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/89",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/90",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/91",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/92",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/93",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/94",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/95",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/96",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/97",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/98",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/99",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/100",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/101",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/102",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/103",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/104",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/105",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/106",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/107",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/108",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/109",
+            "https://wellcomelibrary.org/iiif/b21213483/contentAsText/110"
+        ]
+    }
+}    
